@@ -76,7 +76,7 @@
             // 
             this.lblApellido.AutoSize = true;
             this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(108, 29);
+            this.lblApellido.Location = new System.Drawing.Point(86, 29);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(65, 20);
             this.lblApellido.TabIndex = 2;
@@ -91,7 +91,7 @@
             this.gbCrear.Controls.Add(this.txtApellido);
             this.gbCrear.Location = new System.Drawing.Point(33, 48);
             this.gbCrear.Name = "gbCrear";
-            this.gbCrear.Size = new System.Drawing.Size(217, 111);
+            this.gbCrear.Size = new System.Drawing.Size(206, 111);
             this.gbCrear.TabIndex = 3;
             this.gbCrear.TabStop = false;
             this.gbCrear.Text = "Crear una Persona";
@@ -132,9 +132,9 @@
             this.gbPersona.Controls.Add(this.btnCreser);
             this.gbPersona.Controls.Add(this.lblNombre);
             this.gbPersona.Controls.Add(this.lblApellido);
-            this.gbPersona.Location = new System.Drawing.Point(33, 165);
+            this.gbPersona.Location = new System.Drawing.Point(34, 165);
             this.gbPersona.Name = "gbPersona";
-            this.gbPersona.Size = new System.Drawing.Size(217, 202);
+            this.gbPersona.Size = new System.Drawing.Size(205, 202);
             this.gbPersona.TabIndex = 4;
             this.gbPersona.TabStop = false;
             this.gbPersona.Text = "Persona";
@@ -142,16 +142,16 @@
             // gbMorir
             // 
             this.gbMorir.Controls.Add(this.btnMorir);
-            this.gbMorir.Location = new System.Drawing.Point(33, 373);
+            this.gbMorir.Location = new System.Drawing.Point(34, 373);
             this.gbMorir.Name = "gbMorir";
-            this.gbMorir.Size = new System.Drawing.Size(229, 53);
+            this.gbMorir.Size = new System.Drawing.Size(206, 53);
             this.gbMorir.TabIndex = 5;
             this.gbMorir.TabStop = false;
             this.gbMorir.Text = "Terminar Persona";
             // 
             // btnMorir
             // 
-            this.btnMorir.Location = new System.Drawing.Point(77, 19);
+            this.btnMorir.Location = new System.Drawing.Point(68, 19);
             this.btnMorir.Name = "btnMorir";
             this.btnMorir.Size = new System.Drawing.Size(75, 23);
             this.btnMorir.TabIndex = 0;
@@ -223,7 +223,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 99);
+            this.label5.Location = new System.Drawing.Point(24, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 13);
             this.label5.TabIndex = 8;
@@ -232,18 +232,20 @@
             // lblYears
             // 
             this.lblYears.AutoSize = true;
-            this.lblYears.Location = new System.Drawing.Point(74, 65);
+            this.lblYears.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYears.Location = new System.Drawing.Point(64, 60);
             this.lblYears.Name = "lblYears";
-            this.lblYears.Size = new System.Drawing.Size(13, 13);
+            this.lblYears.Size = new System.Drawing.Size(18, 20);
             this.lblYears.TabIndex = 9;
             this.lblYears.Text = "0";
             // 
             // lblPeso
             // 
             this.lblPeso.AutoSize = true;
-            this.lblPeso.Location = new System.Drawing.Point(77, 99);
+            this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeso.Location = new System.Drawing.Point(64, 94);
             this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(13, 13);
+            this.lblPeso.Size = new System.Drawing.Size(18, 20);
             this.lblPeso.TabIndex = 10;
             this.lblPeso.Text = "0";
             // 
@@ -251,7 +253,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 450);
+            this.ClientSize = new System.Drawing.Size(280, 435);
             this.Controls.Add(this.gbMorir);
             this.Controls.Add(this.gbPersona);
             this.Controls.Add(this.gbCrear);

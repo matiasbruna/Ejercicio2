@@ -17,6 +17,7 @@ namespace Ejercicio2
         private string apellido;
         private int peso;
 
+        //Propiedades
         public int Years
         {
             set { years = value; }
@@ -40,12 +41,17 @@ namespace Ejercicio2
             set { peso = value; }
             get { return peso; }
         }
+
+        //Constructor
         public Persona(int years, string nombre, string apellido)
         {
             Years = years;
             Nombre = nombre;
-            Apellido = apellido;    
+            Apellido = apellido;
+            Peso = peso;
         }
+
+        //Metodos
         public  void Creser (string _years)
         {
             int year;
